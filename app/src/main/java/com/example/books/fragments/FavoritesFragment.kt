@@ -78,9 +78,4 @@ class FavoritesFragment : Fragment() {
             }
         })
     }
-
-    override fun onResume() {
-        super.onResume()
-        viewModel.getFavoriteBooks()
-    }
 }
